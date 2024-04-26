@@ -4,8 +4,6 @@
     <meta charset="utf-8">
         <title>Just Cafe</title>
         <link rel='stylesheet' type="text/css" href="style.css" />
-        <link rel="stylesheet" type="text/css" href="login.css">
-        <link rel="stylesheet" type="text/css" href="signup.css">
         <meta name="viewport" content = "width = device-width, initial-scale=1">
     </head>
     <body>
@@ -13,91 +11,21 @@
 
 <!-- header section -->
 <header>
-                    <div class="header-container">
-                        <div class='ss-text'> <a id="title" href="index.html">Just Cafe</a>
-                        </div>
-                    </div>
-</header>
-<header>                    
-                        <nav class="menu">
-                            <ul id="menu_ul">
-                                <li id="menu_li"><a href="index.html">Home</a></li>
-                                <li id="menu_li"><a href="menu.html">Menu</a></li>
-                                <li id="menu_li"><a href="about.html">About</a></li>
-                                <li id="menu_li"><a href="order.html">Order</a></li>
-                                <li id="menu_li"><a href="contact.html">Contact Us</a></li>
-                                <li id="menu_li" class="login-signup">
-                                    <button class="login">Login</button>
-                                    <button class="signup">Sign Up</button>
-                                </li>
-                            </ul>
-                        </nav>
+    <div class="logo">
+        <img src="just-cafe-high-resolution-logo.webp" alt="Just Cafe Logo">
+    </div>
+    <nav>
+        <ul>
+            <li id="menu_li"><a href="index.html">Home</a></li>
+            <li id="menu_li"><a href="menu.html">Menu</a></li>
+            <li id="menu_li"><a href="about.html">About</a></li>
+            <li id="menu_li"><a href="order.html">Order</a></li>
+            <li id="menu_li"><a href="contact.html">Contact Us</a></li>
+		<li id="menu_li"><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
 </header>
 
-
-    <div class="popup" id="loginPopup">
-        <h2>Login</h2>
-        <div class="login-container">
-            <form id="login-form">
-                <div class="form-group">
-                    <label for="login-email"><b>Email</b></label>
-                    <input type="email" placeholder="Enter email" id="login-email" name="email">
-                </div>
-                <div class="form-group">
-                    <label for="login-username"><b>Username</b></label>
-                    <input type="text" placeholder="Enter Username" id="login-username" name="username">
-                </div>
-                <div class="form-group">
-                    <label for="login-password"><b>Password</b></label>
-                    <input type="password" placeholder="Enter Password" id="login-password" name="password">
-                </div>
-                <div class="form-group">
-                    <button id="login-submit" type="submit">Login</button>
-                </div>
-                <div class="form-group">
-                    <label>
-                        <input type="checkbox" name="remember"> Remember me
-                    </label>
-                </div>
-                <div class="form-group">
-                    <button type="button" id="login-cancelbtn">Cancel</button>
-                </div>
-            </form>
-        </div>
-    
-    
-    </div>
-    
-    <div class="popup" id="signupPopup">
-        <h2>Sign Up</h2>
-        <div class="signup-container">
-            <form id="signup-form">
-                <div class="signup-group">
-                    <label for="signup-email"><b>Email</b></label>
-                    <input type="email" placeholder="Enter email" id="signup-email" name="email">
-                </div>
-                <br>
-                <div class="signup-group">
-                    <label for="signup-username"><b>Username</b></label>
-                    <input type="text" placeholder="Enter Username" id="signup-username" name="username">
-                </div>
-                <br>
-                <div class="signup-group">
-                    <label for="signup-password"><b>Password</b></label>
-                    <input type="password" placeholder="Enter Password" id="signup-password" name="password">
-                </div>
-                <br><br>
-                <div class="signup-group">
-                    <button type="submit" id="signup-submit">Sign Up</button>
-                </div>
-                <br><br>
-                <div class="signup-group">
-                    <button type="button" id="signup-cancelbtn">Cancel</button>
-                </div>
-            </form>
-        </div>
-    </div>
-    <script src="home.js"></script>
 <!-- photo gallery -->
         <div class="responsive">
               <div class="gallery">
@@ -125,7 +53,7 @@
             </div>
 
 <!-- line break -->
-							<hr hr size="6px" width="90%" color=#ED7117>
+	<hr hr size="6px" width="90%" color=#ED7117>
 
 <!-- location section -->
         <div class="row">
